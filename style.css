@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-color: black;
+}
+
+.output{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 150px;
+    border-radius: 10px;
+    height: 50px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+button{
+    background: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-family:cursive;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.button.span-two{
+    height: 29px;
+    width: 64px;
+    margin-top: 5px;
+}
+
+.output.previous{
+    color: #645353;
+}
+button:hover{
+    background-color: greenyellow;
+}
