@@ -17,6 +17,7 @@
     height: 50px;
     word-wrap: break-word;
     word-break: break-all;
+    color: black;
 }
 
 button{
